@@ -1,0 +1,56 @@
+# .github/labeler.yml
+
+version: v1
+
+labels:
+  - label: 'lab1'
+    sync: true
+    matcher:
+      title: 'Лабораторная работа №1.*'
+      
+  - label: 'lab2'
+    sync: true
+    matcher:
+      title: 'Лабораторная работа №2.*'      
+    
+  - label: 'lab3'
+    sync: true
+    matcher:
+      title: 'Лабораторная работа №3.*'    
+  
+  - label: 'lab4'
+    sync: true
+    matcher:
+      title: 'Лабораторная работа №4.*'
+  
+
+  - label: '3823М1ПМвм'
+    sync: true
+    matcher:
+      title: '*3823М1ПМвм*'
+
+  - label: '3823М1ПМкн'
+    sync: true
+    matcher:
+      title: '*3823М1ПМкн*'
+      
+  - label: '3823М1ФИии1'
+    sync: true
+    matcher:
+      title: '*3823М1ФИии1*'
+      
+  - label: '3823М1ФИии2'
+    sync: true
+    matcher:
+      title: '*3823М1ФИии2*'
+    
+  - label: '3823М1ФИии3'
+    sync: true
+    matcher:
+      title: '*3823М1ФИии3*'
+  
+  - label: '3823М1ФИии4'
+    sync: true
+    matcher:
+      title: '*3823М1ФИии4*'
+      
